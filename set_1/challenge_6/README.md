@@ -5,7 +5,7 @@ Here's how:
 1. Let KEYSIZE be the guessed length of the key; try values from 2 to (say) 40.
 2. Write a function to compute the edit distance/Hamming distance
 between two strings. *The Hamming distance is just the number of
-differing bits* The distance between: `this is a test` and `wokka wokka!!!` is **37**.
+differing bits.* The distance between: `this is a test` and `wokka wokka!!!` is **37**.
 *Make sure your code agrees before you proceed*.
 3. For each KEYSIZE, take the *first* KEYSIZE worth of bytes, and the
 *second* KEYSIZE worth of bytes, and find the edit distance between
